@@ -2,7 +2,7 @@
 layout: page
 title: Test page
 subtitle: just a little sample diddy
-thumbnail-img : /assets/img/face.PNG
+cover-img : /assets/img/face.PNG
 ---
 
 ## NLP Projects
@@ -53,6 +53,7 @@ Excercises from a course on Algorithms.
 
 - Data Structures
 - Time Complexity Analysis
+
 #### [Web Summarizer](https://github.com/jhewitt11/webSummarizer)
 Simple web app sandbox
 
