@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Test page
+title: Project Portfolio
 subtitle: just a little sample diddy
-cover-img : /assets/img/face.PNG
+
 ---
 
 ## NLP Projects
