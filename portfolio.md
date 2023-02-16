@@ -2,7 +2,7 @@
 layout: page
 title: Test page
 subtitle: just a little sample diddy
-thumbnail-img : /assets/img/face.png
+thumbnail-img : /assets/img/face.PNG
 ---
 
 ## NLP Projects
