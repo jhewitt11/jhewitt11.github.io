@@ -22,6 +22,7 @@ author: Joe Hewitt
 ###############################################
 
 navbar-links:
+  Contact : "contact"
   #About Me: "aboutme"
   #Resume : "portfolio"
 
