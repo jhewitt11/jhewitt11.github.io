@@ -23,7 +23,7 @@ author: Joe Hewitt
 
 navbar-links:
   Contact : "contact"
-  Resume : "resume"
+  #Resume : "resume"
   #About Me: "aboutme"
   #Resume : "portfolio"
 
