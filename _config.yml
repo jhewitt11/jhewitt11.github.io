@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Joe's Site
+title: Joe Hewitt
 
 # Your name to show in the footer
 author: Joe Hewitt
@@ -22,8 +22,8 @@ author: Joe Hewitt
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Portfolio : "portfolio"
+  #About Me: "aboutme"
+  #Resume : "portfolio"
 
 ################
 # --- Logo --- #
