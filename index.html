@@ -4,11 +4,25 @@ title: Joe Hewitt
 subtitle: Portfolio Site
 ---
 
-<p> Machine Vision sales engineer turned NLP/ML enthusiast. I've spent the last year or so learning data science and natural language processing. In addition to working on the projects below, both Coursera's NLP specialization and Deep Learning and Neural Networks course were great resources for introducing different model architectures and machine learning concepts. </p>
+	<h2>Document Analysis Platform</h2>
+	<p>Web app for gathering and consuming news stories. Quickly retrieve online articles about a topic and a chatbot will reference them while answering your questions. </p>
+	<ul>
+		<li>Flask</li>
+		<li>SQLite</li>
+		<li>Weaviate Vector Database</li>
+		<li>OpenAI API</li>
+		<li>Google Search API</li>
+	</ul>
+	<p>Functionality</p>
+	<ul>
+		<li>Seek and Store - using Google Search API and BeautifulSoup extract text from search results then clean and store in databases.</li>
+		<li>Q&A - Question and Answer over dataset with a GPT powered chatbot. Vector search via Weaviate DB.</li>
+		<li>NER - Visualize named entity frequency between articles. Powered by Flair and Chart.js </li>
+		<li>Summarize - Enter URL and see an article's summary.</li>
+	</ul>
+	<a href="https://github.com/jhewitt11/document-analysis-platform">Github Repo</a>
+	<hr>
 
-<p>I welcome introductions and conversations about work / related projects / collaboration. My info can be found on the Contact page. Thanks!</p>
-<hr>
-	
    	<h2>Topic Modeling via BERTopic and LDA</h2>
 	<p>A tool for quantifying topic model performance. Compares BERTopic and Latent Dirichlet Allocation.</p>
 	<ul>
@@ -19,22 +33,6 @@ subtitle: Portfolio Site
 		<li>Matplotlib</li>
 	</ul>
 	<a href="https://github.com/jhewitt11/Topic-Modeling-BERTopic-and-LDA/">Github Repo</a>
-	<hr>
-	
-	<h2>Document Analysis Platform</h2>
-	<p>Web app for gathering and analyzing text data / news stories.</p>
-	<ul>
-		<li>Flask</li>
-		<li>Jinja</li>
-		<li>SQLite</li>
-	</ul>
-	<p>Functionality</p>
-	<ul>
-		<li>Seek and Store - using Google Search API, extract query results then clean and store them.</li>
-		<li>NER - Visualize named entity frequency between articles with Chart.js </li>
-		<li>Summarize - Enter URL and see summarized article contents.</li>
-	</ul>
-	<a href="https://github.com/jhewitt11/document-analysis-platform">Github Repo</a>
 	<hr>
 
 	<h2>Algorithms</h2>
@@ -49,16 +47,14 @@ subtitle: Portfolio Site
 	<hr>
 
 	<h2>News Classification</h2>
-	<p>Training and evaluating different classifier models.</p>
+	<p>Training and evaluating different classifier models on 2 different news datasets. BBCs 5 class and Huffposts 42 class dataset.</p>
 	<ul>
 		<li>Logistic Regression</li>
 		<li>Random Forest</li>
 		<li>Neural Classifier</li>
-		<li>BERT Classifier</li>
 	</ul>
 	<a href="https://github.com/jhewitt11/HeadlineClassification">Github Repo</a>
 	<hr>
-
 
 	<h2>Information Extraction</h2>
 	<p>Extracting information from text in the form of Subject, Verb, Object triples.</p>
@@ -70,7 +66,6 @@ subtitle: Portfolio Site
 	<a href="https://github.com/jhewitt11/SVO_extraction/">Github Repo</a>
 	<hr>
 
-
 	<h2>News Clustering Study</h2>
 	<p>Scraping news articles, vectorizing their contents and comparing their similarity.</p>
 	<ul>
@@ -81,7 +76,6 @@ subtitle: Portfolio Site
 	</ul>
 	<a href="https://github.com/jhewitt11/NewsClusteringStudy">Github Repo</a>
 	<hr>
-
 
 	<h2>Document Database</h2>
 	<p> Input documents, tokenize and encode them via Sentence-Transformers then insert into Milvus DB.</p>
